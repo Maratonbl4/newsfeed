@@ -13,10 +13,10 @@ help: ## Show this help
         @awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z_-]+:.*?## / {printf "  \033[36m%-15s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST)
 
 up: ## Start container (in background)
-        docker build -t test_task .
-        docker run --name test_task -v $(pwd)/web:/web -d -p 8080:8080 test_task
-        docker logs -f test_task
+	docker build -t test_task .
+	docker run --name test_task -v $(pwd)/web:/web -d -p 8080:8080 test_task
+	docker logs -f test_task
 
 down: ## Stop container
-        docker stop test_task
-        docker rm test_task
+	docker stop test_task
+	docker rm test_task

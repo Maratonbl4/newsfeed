@@ -1,0 +1,61 @@
+{
+    "comments": [
+        {
+            "id": 1,
+            "news_id": 1,
+            "title": "comment_1",
+            "date": "2023-08-06T19:39:34",
+            "comment": "Comment 1"
+        },
+        {
+            "id": 2,
+            "news_id": 2,
+            "title": "comment_2",
+            "date": "2020-12-06T06:45:58",
+            "comment": "Comment 2"
+        },
+        {
+            "id": 3,
+            "news_id": 3,
+            "title": "comment_3",
+            "date": "2022-07-31T17:01:08",
+            "comment": "Comment 3"
+        },
+        {
+            "id": 4,
+            "news_id": 3,
+            "title": "comment_4",
+            "date": "2022-03-26T03:21:08",
+            "comment": "Comment 4"
+        },
+        {
+            "id": 5,
+            "news_id": 3,
+            "title": "comment_5",
+            "date": "2022-06-19T22:53:38",
+            "comment": "Comment 5"
+        },
+        {
+            "id": 6,
+            "news_id": 4,
+            "title": "comment_6",
+            "date": "2021-09-29T10:31:26",
+            "comment": "Comment 6"
+        },
+        {
+            "id": 7,
+            "news_id": 4,
+            "title": "comment_7",
+            "date": "2022-06-27T06:20:02",
+            "comment": "Comment 7"
+        },
+        {
+            "id": 8,
+            "news_id": 4,
+            "title": "comment_8",
+            "date": "2020-11-23T02:16:35",
+            "comment": "Comment 8"
+        }
+    ],
+    "comments_count": 8
+}
